@@ -16,22 +16,28 @@
     </ul>
   </nav>
 
-  <section>
-    <h1>Contact Me</h1>
-    <form id="contact-form" method="post" action="#">
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
+  <section id="contact">
+    <p class="section_text_p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:jessemburu42@gmail.com">jessemburu42@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/jesse-mburu-6421a1327?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNOJiin9BRVybCMm8CUbnxw%3D%3D">Linkedin</a></p>
+        </div>
+        <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="Linkedin icon" class="icon contact-icon">
+            <p><a href="tel:+254759585992">Phone</a></p>
+        </div>
+    </div>
+</section>
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
-
-      <button type="submit">Send</button>
-    </form>
-    <p>integrate EmailJS, Formspree, or other APIs for the form functionality.</p>
-  </section>
+  <footer>
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
